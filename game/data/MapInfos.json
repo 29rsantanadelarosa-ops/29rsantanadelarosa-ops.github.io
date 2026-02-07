@@ -5,5 +5,5 @@ null,
 {"id":3,"expanded":false,"name":"Housea","order":2,"parentId":4,"scrollX":534,"scrollY":292,"quick":false},
 {"id":4,"expanded":true,"name":"House Int","order":1,"parentId":0,"scrollX":534,"scrollY":302,"quick":false},
 {"id":5,"expanded":true,"name":"Forest","order":5,"parentId":1,"scrollX":534,"scrollY":292,"quick":false},
-{"id":6,"expanded":false,"name":"Forest2","order":6,"parentId":5,"scrollX":0,"scrollY":0,"quick":false}
+{"id":6,"expanded":false,"name":"Forest2","order":6,"parentId":5,"scrollX":534,"scrollY":292,"quick":false}
 ]
