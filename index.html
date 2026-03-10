@@ -23,32 +23,72 @@
             background-color: #a4c8f1b7;
         }
 
-        header {
-            background-color: #ffffff;
+        #firstArticle {
+            background-color: #472e2e;
+            padding: 10px;
+        }
+
+        .empWord {
+            color: #684848;
+            font-weight: bold;
+        }
+
+        div {
+            margin: 10px;
+            padding: 10px;
+            border: 3px solid black;
+            outline: 2px solid purple;
+        }
+        .heading1 {
+            outline: 10px solid gray;
+        }
+        .peak {
+            display: flex-end;
+            border: 2px solid black;
         }
     </style>
 </head>
 
 <body>
+    <div class="peak">
+    <img src="Peak..jpg" alt="" style="grid-row-end: 2;">
+    <img src="Peak..jpg" alt="" style="grid-row-end: 2;">
+    <img src="Peak..jpg" alt="" style="grid-row-end: 2;">
+    <img src="Peak..jpg" alt="" style="grid-row-end: 2;">
+    <img src="Peak..jpg" alt="" style="grid-row-end: 2;">
+    <img src="Peak..jpg" alt="" style="grid-row-end: 2;">
     <h1>Homegame</h1>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="game/index.html">Game</a>
-    </nav>
+    <div>
+        <nav>
 
-    <article>
-        <header>
-            <h2>Welcome to my website!</h2>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="javascript.html">Cookies</a> |
+            <a href="game/index.html">Game</a>
+        </nav>
+    </div>
+    <div id="firstArticle">
+        <article>
+            <header>
+                <div id="heading">
+                    <div class="heading1">Welcome to my website!</div>
+                </div>
 
-        </header>
-        <p>Hello I'm known has the cool guy!</p>
-        <p> Here is More Info about me!</p>
-        <p>Im a solo rpg creator and if you click "Game" on the top
-            you will be able to play test my barely made game but I try Oh well have fun. </p>
-            <p>The game is still early access.</p>
+            </header>
+            <div id="alotOfText">
+                <div id="info">
 
-    </article>
+                    <p>Hello I'm known has the cool guy!</p>
+                    <p> Here is More Info about me!</p>
+                    <p>Im a solo RPG creator and if you click "Game" on the top
+                        you will be able to play test my barely made game but I try Oh well have fun. </p>
+                    <p>The <span class="empWord">game</span> is still <span class="empWord">early</span> <span
+                            class="empWord">access</span>.</p>
+                </div>
+        </article>
+    </div>
+    </div>
+    </div>
 </body>
 
 </html>
