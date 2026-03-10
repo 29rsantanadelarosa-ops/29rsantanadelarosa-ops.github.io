@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Boxes</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        div {
+            margin: 10px;
+            padding: 10px;
+            border: 3px solid black;
+            outline: 2px solid purple
+        }
+
+        #siteContent {
+            background-color: white;
+            width: 80%;
+            margin: auto;
+        }
+
+        #header {
+            background-color: red;
+            font-size: 2em;
+        }
+
+        #navBar {
+            background-color: orange;
+        }
+
+        .navLink {
+            background-color: cornflowerblue;
+            display: inline-flex;
+        }
+
+        .article {
+            background-color: blue;
+        }
+
+        .articleHeader {
+            background-color: purple;
+        }
+
+        .articleContent {
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="siteContent">
+        <div id="header">Boxes in Boxes</div>
+        <div id="navBar">
+            <div class="navLink">Link</div>
+            <div class="navLink">Link</div>
+            <div class="navLink">Link</div>
+        </div>
+        <div class="article">
+            <div class="articleHeader">
+                <h2>Article</h2>
+                <div class="articleContent">
+                    <p>This is some text.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="article">
+            <div class="articleHeader">
+                <h2>Article</h2>
+                <div class="articleContent">
+                    <p>This is some text.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

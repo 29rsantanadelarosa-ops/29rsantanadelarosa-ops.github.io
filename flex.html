@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Boxes</title>
+    <style>
+        p img {
+            width: 100px;
+            float: left;
+            clear: right;
+        }
+
+        .parent {
+            display: flex;
+            width: 75%;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            border: 2px solid black;
+        }
+        .parent img {
+            width: 100px;
+        }
+
+        .child {
+            width: 200px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <img src="images.jpg" alt="">
+        <img src="images.jpg" alt="">
+        <img src="images.jpg" alt="">
+        <img src="images.jpg" alt="">
+        <img src="images.jpg" alt="">
+        <img src="images.jpg" alt="" style="flex-grow: 2;">
+        <img src="images.jpg" alt="">
+        <img src="images.jpg" alt="">
+        <img src="images.jpg" alt="">
+        <img src="images.jpg" alt="">
+    </div>
+    <div class="parent">
+        <div class="child">
+            <p>
+                <img src="images.jpg" alt="">
+                orses are the fastest things on the planet Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus ultrices luctus scelerisque. Aliquam
+                tortor ex, efficitur et egestas sit amet, euismod eu libero. In varius sem sed scelerisque volutpat.
+                Orci
+                varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc nec neque nibh.
+                Suspendisse blandit pulvinar dolor. Vivamus vestibulum rhoncus tortor, ut faucibus dui sodales blandit.
+                Sed
+                at lacus ut leo pellentesque feugiat eget ut est. Maecenas auctor diam vitae justo ullamcorper, in
+                pellentesque odio dictum. Nullam varius iaculis turpis eget egestas. Praesent ullamcorper id urna in
+                vestibulum. Morbi pretium, massa ultrices dapibus tempor, sapien velit aliquam leo, vitae maximus magna
+                libero pulvinar libero. Cras vitae ornare nibh. Fusce rutrum nisi id elementum dapibus. Cras ligula
+                nibh,
+                pharetra at semper in, tristique in tellus.
+        </div>
+        <div class="child">
+            <p>
+                <img src="images.jpg" alt="">
+                orses are the fastest things on the planet Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus ultrices luctus scelerisque. Aliquam
+                tortor ex, efficitur et egestas sit amet, euismod eu libero. In varius sem sed scelerisque volutpat.
+                Orci
+                varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc nec neque nibh.
+                Suspendisse blandit pulvinar dolor. Vivamus vestibulum rhoncus tortor, ut faucibus dui sodales blandit.
+                Sed
+                at lacus ut leo pellentesque feugiat eget ut est. Maecenas auctor diam vitae justo ullamcorper, in
+                pellentesque odio dictum. Nullam varius iaculis turpis eget egestas. Praesent ullamcorper id urna in
+                vestibulum. Morbi pretium, massa ultrices dapibus tempor, sapien velit aliquam leo, vitae maximus magna
+                libero pulvinar libero. Cras vitae ornare nibh. Fusce rutrum nisi id elementum dapibus. Cras ligula
+                nibh,
+                pharetra at semper in, tristique in tellus.
+        </div>
+        <div class="child">
+            <p>
+                <img src="images.jpg" alt="">
+                orses are the fastest things on the planet Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus ultrices luctus scelerisque. Aliquam
+                tortor ex, efficitur et egestas sit amet, euismod eu libero. In varius sem sed scelerisque volutpat.
+                Orci
+                varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc nec neque nibh.
+                Suspendisse blandit pulvinar dolor. Vivamus vestibulum rhoncus tortor, ut faucibus dui sodales blandit.
+                Sed
+                at lacus ut leo pellentesque feugiat eget ut est. Maecenas auctor diam vitae justo ullamcorper, in
+                pellentesque odio dictum. Nullam varius iaculis turpis eget egestas. Praesent ullamcorper id urna in
+                vestibulum. Morbi pretium, massa ultrices dapibus tempor, sapien velit aliquam leo, vitae maximus magna
+                libero pulvinar libero. Cras vitae ornare nibh. Fusce rutrum nisi id elementum dapibus. Cras ligula
+                nibh,
+                pharetra at semper in, tristique in tellus.
+        </div>
+    </div>
+</body>
+
+</html>
