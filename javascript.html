@@ -41,7 +41,7 @@
     <img src="cookie.jpg" width=200 onclick="addScore()">
     <div id="scoreBox">0</div>
     <div id="multiplyButton"><button onclick="buyMulti()" id="multiplyBtn">Buy Upgrade</button></div>
-    <div id="autoButton"><button onclick="buyAutoClick()" id="autoBtn">Buy Autoclick</button></div>
+    <div id="autoButton"><button onclick="buyAutoClicker()" id="autoBtn">Buy Autoclick</button></div>
     <div id="peak"><img src="Peak..jpg" alt="peak"></div>
 </body>
 <script>
@@ -71,10 +71,10 @@
         scoreBox.innerHTML = score;
     }
 
-    function buyMultiplier() {
+    function buyMulti() {
         if (score >= (multiplier * 10)) {
             score = score - (multiplier * 10)
-            multiplier = multiplier + 0.5;
+            multiplier = multiplier + 1;
             scoreBox.innerHTML = score;
             buyMultiplier();
         }
@@ -90,7 +90,7 @@
                 },
                 1000
             )
-            buyMultiplier();
+            buyMulti();
         } else if (score >= (autoClickAmount * 10)) {
                 score = score - (autoClickAmount * 10)
             autoClickAmount = autoClickAmount + 1;
@@ -99,7 +99,7 @@
             }
     }
 
-    buyMultiplier();
+    buyMulti();
 </script>
 
 </html>
